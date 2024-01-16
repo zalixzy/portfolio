@@ -14,6 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    // Couleur du background du site et couleurs permettant de styliser le background
     <html lang="en">
       <body className={`${inter.className} bg-gray-800 text-gray-950 relative`}>{children}
         <div className="bg-[#164e63] absolute top-[-6rem] right-[11rem] h-[31.25rem] 
