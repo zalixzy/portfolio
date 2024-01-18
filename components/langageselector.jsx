@@ -1,32 +1,34 @@
-// i18n.js
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
+// Page gérant l'ajout de boutton avec les images de langues différentes 
 
-import translationEN from '../translations/en.json';
-import translationFR from '../translations/fr.json';
-import translationDE from '../translations/de.json';
+const LanguageSelector = () => {
+  const { t, i18n } = useTranslation();
 
+  const changeLanguage = (lng) => {
+    // console.log(`Changing language to: ${lng}`);    
+    i18n.changeLanguage(lng);
+  };
 
-i18n.use(initReactI18next).init({
-  resources: {
-    fr: {
-      translation: translationFR,
-    },
-    en: {
-      translation: translationEN,
-    },
-    de: {
-      translation: translationDE,
-    },
+  // Associez chaque langue à son chemin d'image
+  const languageImages = {
+    fr: 'french.png',
+    en: 'english.png',
+    de: 'german.png',
+    es: 'spanish.png',
     // Ajoutez d'autres langues au besoin
-  },
-  lng: 'fr', // Langue par défaut
-  fallbackLng: 'fr', // Langue de secours si la traduction n'est pas trouvée
-  interpolation: {
-    escapeValue: false, // Ne pas échapper les variables dans la traduction
-  },
-});
+  };
 
+  return (
+    <div className='flex justify-end space-x-4 pr-4 items-center'>
+      {Object.keys(languageImages).map((lang) => (
+        <button key={lang} className='z-[999]' onClick={() => changeLanguage(lang)}>
+          <img src={languageImages[lang]} alt={lang} className='w-8 h-8 mr-2' />
+          
+        </button>
+      ))}
+    </div>
+  );
+};
 
-export default i18n;
+export default LanguageSelector;

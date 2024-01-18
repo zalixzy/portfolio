@@ -6,6 +6,7 @@ import { initReactI18next } from 'react-i18next';
 import translationEN from './translations/en.json';
 import translationFR from './translations/fr.json';
 import translationDE from './translations/de.json';
+import translationES from './translations/es.json';
 
 
 i18n.use(initReactI18next).init({
@@ -19,6 +20,9 @@ i18n.use(initReactI18next).init({
     de: {
       translation: translationDE,
     },
+    es: {
+      translation: translationES,
+    }
     // Ajoutez d'autres langues au besoin
   },
   lng: 'fr', // Langue par défaut
