@@ -38,11 +38,17 @@ import { useTranslation } from 'react-i18next';
           initial ={{opacity:0, scale: 0}}
           animate= {{opacity:1, scale:1}}>
             <div>
-              <span className="font-bold">{t('Intro1')}</span>
+              <span className="font-bold">Bonjour, Je m'appelle Thomas
+                {/* {t('Intro1')} */}
+              </span>
             </div> 
             <div>
-            {t('Intro2')}{" "}
-              <span className="font-bold">{t('Intro3')}</span>  {t('Intro4')}
+            {/* {t('Intro2')} */}
+            Je suis un{" "}
+              <span className="font-bold">étudiant
+                {/* {t('Intro3')} */}
+              </span>  passionné par l'informatique
+              {/* {t('Intro4')} */}
             </div>
           </motion.p>
          
