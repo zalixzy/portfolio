@@ -4,8 +4,11 @@ import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
+import { useTranslation } from 'react-i18next';
+
 
   export default function Intro() {
+    const { t } = useTranslation();
     return (
       <section>
           <div className="flex items-center justify-center">
@@ -35,11 +38,11 @@ import { motion } from 'framer-motion'
           initial ={{opacity:0, scale: 0}}
           animate= {{opacity:1, scale:1}}>
             <div>
-              <span className="font-bold">Bonjour, Je m'appelle Thomas</span>
+              <span className="font-bold">{t('Intro1')}</span>
             </div> 
             <div>
-              Je suis un{" "}
-              <span className="font-bold">étudiant</span>  passionné par l'informatique
+            {t('Intro2')}{" "}
+              <span className="font-bold">{t('Intro3')}</span>  {t('Intro4')}
             </div>
           </motion.p>
          
