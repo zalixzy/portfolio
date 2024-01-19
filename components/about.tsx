@@ -10,32 +10,33 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}>
 
-        <SectionHeading>About me</SectionHeading>
+        <SectionHeading>A propos de moi</SectionHeading>
 
         <p className="mb-3">
-            After graduating with a degree in{" "}
-            <span className="font-medium">Accounting</span>, I decided to pursue my
-                passion for programming. I enrolled in a coding bootcamp and learned{" "}
-            <span className="font-medium">full-stack web development</span>.{" "}
-            <span className="italic">My favorite part of programming</span> is the
-                problem-solving aspect. I <span className="underline">love</span> the
-                feeling of finally figuring out a solution to a problem. My core stack
-                is{" "}
+            Après plusieurs expériences professionnelles{" "}
+            , j'ai décidé de poursuivre <span className="font-medium">ma passion</span>{" "}
+            pour la programmation et l'informatique. J'ai rejoint le BTS SIO Cybersécurité option Mathématiques Approfondis en 2022{" "}
+            <span className="font-medium">(Solutions logiciels et Applications métiers)</span>.{" "}
+            <span className="italic">Ce que je préfère dans ces domaines</span> sont leurs vaste champ d'utilisations
+            et les nombreux services qui leurs sont liés <span className="underline">mais aussi</span> les innombrables
+            façon différentes de parvenir à résoudre une même problématique. 
+                {" "}
             <span className="font-medium">
-                React, Next.js, Node.js, and MongoDB
+            PHP, C#, React, Next.js,  {" "}
             </span>
-                . I am also familiar with TypeScript and Prisma. I am always looking to
-                learn new technologies. I am currently looking for a{" "}
-            <span className="font-medium">full-time position</span> as a software
-                developer.
+            sont pour le moment les langages que je maîtrise le mieux.
+            J'ai déjà pu travailler avec Typescript et Javascript également et suis toujours curieux de 
+            découvrir de nouvelles technologies permettant d'ajouter des cordes à mon arc.
+            Je cherche actuellement une{" "}
+            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en informatique.
         </p>
         <p className="mb-3">
-            <span className="italic">When I'm not coding</span>, I enjoy playing
-                video games, watching movies, and playing with my dog. I also enjoy{" "}
-            <span className="font-medium">learning new things</span>. I am currently
-                learning about{" "}
-            <span className="font-medium">history and philosophy</span>. I'm also
-                learning how to play the guitar.
+            <span className="italic">Dans mon temps libre</span>, j'aime faire de la randonnée, 
+            m'intéresser à la géopolitique, le trading et passer du temps avec mes proches. J'aime aussi{" "}
+            <span className="font-medium">apprendre de nouvelles choses car tout m'interesse</span>. Actuellement, je 
+            me documente sur{" "}
+            <span className="font-medium">l'impression 3D.</span> Enfin, je cherche chaque jour à devenir une meilleure 
+            version de moi-même et donner le sourire autour de moi.
         </p>
     </motion.section>
   )
