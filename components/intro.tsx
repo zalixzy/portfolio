@@ -8,6 +8,7 @@ import { HiDownload } from "react-icons/hi"
 
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
+import { FaGithubSquare } from 'react-icons/fa';
 
 
   export default function Intro() {
@@ -37,41 +38,51 @@ import Link from 'next/link';
             
           </div>
           
-          <motion.p className="text-gray-950  mb-10 mt-4 px-4 font-medium text-2xl !leading-[1.5]
+          <motion.p className="text-gray-800  mb-10 mt-4 px-4 font-medium text-2xl !leading-[1.5]
            sm:text-2xl "
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             >
             <span className="font-bold">
               Bonjour, Je m'appelle Thomas
-              {/* {t('Intro1')} */}
+              {/* {t('Hello, my name is Thomas')} */}
             </span>
             <br />
-            {/* {t('Intro2')} */}
+            {/* {t('I am a')} */}
             {" "}Je suis un{" "}
             <span className="font-bold">
               étudiant
-              {/* {t('Intro3')} */}
+              {/* {t('student')} */}
             </span>{" "}
             passionné par l'informatique
-            {/* {t('Intro4')} */}
+            {/* {t('passionate about computer science')} */}
           </motion.p>
-          <div>
-            <Link className="bg-gray-950 text-white px-7 py-3 flex items-center gap-2 
+          <motion.div className="
+          flex flex-col sm:flex-row items-center justify-center 
+          gap-2 px-4 text-lg font-medium"
+          initial={{opacity:0, y:100}}
+          animate={{opacity:1, y:0}}
+          >
+            <Link className="bg-gray-800 text-white px-7 py-1.5 flex items-center gap-2 
             rounded-full
             " href="#contact">Me contacter <BsArrowRight />
             </Link>
-            <a className="bg-gray-200 text-gray-950px-7 py-3 flex items-center gap-2 
-            rounded-full
+            <a className="bg-gray-200 text-gray-950 px-7 py-1.5 flex items-center gap-2 
+            rounded-full 
             ">Télécharger CV <HiDownload />
             </a>
-            <a className="bg-gray-950 text-gray-100 p-4 flex items-center gap-2 
-            rounded-full">
+            <a className="bg-gray-800 text-gray-100 p-4 flex items-center gap-2 
+            rounded-full ">
               <BsLinkedin />
 
             </a>
+            <a className="bg-gray-800 text-gray-100 p-4 flex items-center gap-2  
+            rounded-full ">
+              <FaGithubSquare />
 
-          </div>
+            </a>
+
+          </motion.div>
 
          
 

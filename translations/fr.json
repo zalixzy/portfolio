@@ -1,8 +1,8 @@
 {
-  "Intro1": "Bonjour, Je m'appelle Thomas",
-  "Intro2": "Je suis un",
-  "Intro3": "étudiant",
-  "Intro4": "passionné par l'informatique"
+  "Hello, my name is Thomas": "Bonjour, Je m'appelle Thomas",
+  "I am a": "Je suis un",
+  "student": "étudiant",
+  "passionate about computer science": "passionné par l'informatique"
   
 
 
