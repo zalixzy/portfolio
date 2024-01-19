@@ -29,8 +29,8 @@ import { FaGithubSquare } from 'react-icons/fa';
                     quality="95"
                     priority={true}
                     className="h-24 w-24 rounded-full 
-                    object-cover border-[0.35rem]
-                    border-white   shadow-xl"
+                    object-cover border-[0.25rem]
+                    border-gray-200   shadow-xl"
                     />
                   </motion.div>  
                   
@@ -65,14 +65,20 @@ import { FaGithubSquare } from 'react-icons/fa';
           transition={{delay:0.1}}
           >
             <Link className="group bg-gray-800 text-white px-7 py-1.5 flex items-center gap-2 
-            rounded-full outlin-none focus:scale-105 hover:scale-105
-             hover:bg-gray-950 active:scale-105 transition
+            rounded-full outline-none focus:scale-105 hover:scale-105
+             hover:bg-gray-950 active:scale-105 transition border border-white/10
             " href="#contact">Me contacter 
+
             <BsArrowRight className="opacity-80 group-hover:translate-x-1 transition translate-y-0.5" />
             </Link>
-            <a className="bg-gray-200 text-gray-950 px-7 py-1.5 flex items-center gap-2 
-            rounded-full 
-            ">Télécharger CV <HiDownload />
+
+            <a className="group bg-gray-200 text-gray-950 px-7 py-1 flex items-center gap-2 
+            rounded-full outline-none hover:scale-105 focus:scale-105
+            hover:bg-gray-100 active:scale-105 transition cursor-pointer border border-black/10
+            " href="/CV.pdf" download>Télécharger CV 
+            <HiDownload className="opacity-60 group-hover:translate-y-0.5 transition
+            " />
+
             </a>
             <a className="bg-gray-800 text-gray-100 p-4 flex items-center gap-2 
             rounded-full ">
