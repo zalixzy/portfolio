@@ -38,7 +38,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             
           </div>
           
-          <motion.p className="text-gray-800  mb-10 mt-4 px-4 font-medium text-2xl !leading-[1.5]
+          <motion.h1 className="text-gray-800  mb-10 mt-4 px-4 font-medium text-2xl !leading-[1.5]
            sm:text-2xl "
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
@@ -56,7 +56,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             </span>{" "}
             passionné par l'informatique
             {/* {t('passionate about computer science')} */}
-          </motion.p>
+          </motion.h1>
           <motion.div className="
           flex flex-col sm:flex-row items-center justify-center 
           gap-2 px-4 text-lg font-medium"
