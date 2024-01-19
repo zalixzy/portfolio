@@ -20,10 +20,10 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className='flex justify-end space-x-4 pr-4 items-center'>
+    <div className='flex justify-end space-x-4 pr-4 items-center '>
       {Object.keys(languageImages).map((lang) => (
         <button key={lang} className='z-[999]' onClick={() => changeLanguage(lang)}>
-          <img src={languageImages[lang]} alt={lang} className='w-8 h-8 mr-2' />
+          <img src={languageImages[lang]} alt={lang} className='w-8 h-8 mr-2 rounded-full border border-black/50' />
           
         </button>
       ))}
