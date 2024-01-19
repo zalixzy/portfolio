@@ -64,7 +64,7 @@ import { FaGithubSquare } from 'react-icons/fa';
           animate={{opacity:1, y:0}}
           transition={{delay:0.1}}
           >
-            <Link className="group bg-gray-800 text-white px-7 py-1.5 flex items-center gap-2 
+            <Link className="group bg-gray-800 text-white px-7 py-1 flex items-center gap-2 
             rounded-full outline-none focus:scale-105 hover:scale-105
              hover:bg-gray-950 active:scale-105 transition border border-white/10
             " href="#contact">Me contacter 
@@ -80,13 +80,17 @@ import { FaGithubSquare } from 'react-icons/fa';
             " />
 
             </a>
-            <a className="bg-gray-800 text-gray-100 p-4 flex items-center gap-2 
-            rounded-full ">
+            <a className="bg-gray-800 text-gray-100 p-3 flex items-center gap-2 
+            rounded-full hover:scale-105 focus:scale-105 
+            hover:bg-gray-950 active:scale-105 transition border border-white/10 cursor-pointer "
+            href="https://www.linkedin.com/in/thomas-travier-2502a7192/" target="_blank">
               <BsLinkedin />
 
             </a>
-            <a className="bg-gray-200 text-gray-950 p-4 flex items-center gap-2  
-            rounded-full ">
+            <a className="bg-gray-200 text-gray-950 p-3 flex items-center gap-2  
+            rounded-full hover:scale-105 focus:scale-105
+            hover:bg-gray-100 active:scale-105 transition cursor-pointer border border-black/10"
+            href="http://github.com/zalixzy" target="_blank">
               <FaGithubSquare />
 
             </a>
