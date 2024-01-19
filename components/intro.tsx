@@ -76,7 +76,7 @@ import { FaGithubSquare } from 'react-icons/fa';
               <BsLinkedin />
 
             </a>
-            <a className="bg-gray-800 text-gray-100 p-4 flex items-center gap-2  
+            <a className="bg-gray-200 text-gray-950 p-4 flex items-center gap-2  
             rounded-full ">
               <FaGithubSquare />
 
