@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
+
 // Page gérant l'ajout de boutton avec les images de langues différentes 
 
 const LanguageSelector = () => {
