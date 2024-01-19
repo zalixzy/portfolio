@@ -12,10 +12,10 @@ const LanguageSelector = () => {
 
   // Associez chaque langue à son chemin d'image
   const languageImages = {
-    fr: 'french.png',
-    en: 'english.png',
-    de: 'german.png',
-    es: 'spanish.png',
+    fr: './flags/french.png',
+    en: './flags/english.png',
+    de: './flags/german.png',
+    es: './flags/spanish.png',
     // Ajoutez d'autres langues au besoin
   };
 
