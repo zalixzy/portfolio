@@ -64,10 +64,11 @@ import { FaGithubSquare } from 'react-icons/fa';
           animate={{opacity:1, y:0}}
           transition={{delay:0.1}}
           >
-            <Link className="bg-gray-800 text-white px-7 py-1.5 flex items-center gap-2 
+            <Link className="group bg-gray-800 text-white px-7 py-1.5 flex items-center gap-2 
             rounded-full outlin-none focus:scale-105 hover:scale-105
              hover:bg-gray-950 active:scale-105 transition
-            " href="#contact">Me contacter <BsArrowRight />
+            " href="#contact">Me contacter 
+            <BsArrowRight className="opacity-80 group-hover:translate-x-1 transition translate-y-0.5" />
             </Link>
             <a className="bg-gray-200 text-gray-950 px-7 py-1.5 flex items-center gap-2 
             rounded-full 
