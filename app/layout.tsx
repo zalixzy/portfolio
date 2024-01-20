@@ -6,7 +6,7 @@ import LanguageSelector from '@/components/langageselector';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Thomas | Personal Portfolio',
+  title: 'Thomas | Portfolio Personnel',
   description: 'Travier Thomas est un étudiant aspirant à devenir chef de projet en informatique',
 }
 

@@ -8,20 +8,20 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
+    name: "Accueil",
+    hash: "#Accueil",
   },
   {
-    name: "About",
-    hash: "#about",
+    name: "A propos",
+    hash: "#A propos",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Projets",
+    hash: "#projets",
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "Compétences",
+    hash: "#Compétences",
   },
   {
     name: "Experience",
@@ -35,20 +35,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "BAC S option SVT",
+    location: "Lycée Alphonse Daudet, Nîmes",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "J'ai obtenu mon baccalaureat scientifique en 2016",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2016",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "BTS SIO Cybersécurité",
+    location: "Lycée CCI Gard, Nîmes",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Au cours de cette formation j'ai pu apprendre de nombreuses bases essentielles en programmation, couplées à des connaissances approfondies dans les matières générales. ",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2024",
   },
   {
     title: "Full-Stack Developer",
@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Aquaglisse",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "J'ai pu travailler au cours de mon stage sur un site web construit en React, Next.js, Tailwind et y ajouter des modules",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Portfollio",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Afin d'approfondir mes connaissances je me suis lancé sur un site web personnel en React, Next.js, Tailwind et hébergé.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Symfony",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Un projet suivit pas à pas afin de maîtriser pleinement le framework symfony et docker.",
+    tags: ["PHP", "Docker", "SQL", "Symfony", ""],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -91,17 +91,14 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "MySQL",
+  "Docker",
+  "PHP",
+  "Symfony",
+  "C#",
+  "EntityFramework",
   "Framer Motion",
 ] as const;
