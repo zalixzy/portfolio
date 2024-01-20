@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import AquaglisseImg from "@/public/aquaglisse.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -66,7 +66,7 @@ export const projectsData = [
     description:
       "J'ai pu travailler au cours de mon stage sur un site web construit en React, Next.js, Tailwind et y ajouter des modules",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: AquaglisseImg,
   },
   {
     title: "Portfollio",
@@ -76,7 +76,7 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "Symfony",
+    title: "",
     description:
       "Un projet suivit pas à pas afin de maîtriser pleinement le framework symfony et docker.",
     tags: ["PHP", "Docker", "SQL", "Symfony", ""],
