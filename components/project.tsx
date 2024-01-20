@@ -34,8 +34,8 @@ function  Project({
   tags,
   imageUrl
 }: ProjectProps){
-  return <section className="group bg-gray-100 border border-black/5 max-w-[42rem] overflow:hidden
-  sm:pr-8 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 even:pl-8">
+  return <section className="group bg-gray-100 border rounded-t-lg border-black/5 max-w-[42rem] 
+  sm:pr-8 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 even:pl-8 hover:bg-gray-200 transition">
     <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full
     group-even:ml-[18rem]">
     <h3>{title}</h3>
@@ -50,9 +50,16 @@ function  Project({
     
 
     <Image className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
-    group-even:-right-[initial] group-even:-left-40
+    group-even:-right-[initial] transition 
+    group-hover:-translate-x-3 group-hover:scale-[1.04]
+    group-hover:translate-y-3 group-hover:-rotate-2 group-even:right-[initial]
+    group-even:-left-40 
+
+    group-even:group-hover:translate-y-3
+    group-even:group-hover:translate-x-3
+    group-even:group-hover:rotate-2
     " 
-    src={imageUrl} alt={title} width={300} height={200} quality={95}  />
+    src={imageUrl} alt={title}  quality={95}  />
 
   </section>
 }
