@@ -5,10 +5,12 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { BsArrowRight, BsLinkedin } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
-
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import { FaGithubSquare } from 'react-icons/fa';
+
+
+
 
 
   export default function Intro() {
