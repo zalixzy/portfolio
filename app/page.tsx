@@ -1,6 +1,7 @@
 
 import About from "@/components/about"
 import Experiences from "@/components/experience"
+import Footer from "@/components/footer"
 import Intro from "@/components/intro"
 import Projects from "@/components/project"
 import SectionDivider from "@/components/section-divider"
@@ -18,6 +19,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experiences />
+      
     </main>
   )
 }

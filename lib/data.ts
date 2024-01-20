@@ -36,20 +36,18 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "BAC S option SVT",
-    location: "Lycée Alphonse Daudet, Nîmes",
-    description:
-      "J'ai obtenu mon baccalaureat scientifique en 2016",
+    title:"BAC S option SVT",
+    location:"Lycée Alphonse Daudet, Nîmes",
+    description:"J'ai obtenu mon baccalaureat scientifique en 2016",
     icon: React.createElement(LuGraduationCap),
-    date: "2016",
+    date:"2016",
   },
   {
-    title: "BTS SIO Cybersécurité",
-    location: "Lycée CCI Gard, Nîmes",
-    description:
-      "Au cours de cette formation j'ai pu apprendre de nombreuses bases essentielles en programmation, couplées à des connaissances approfondies dans les matières générales. ",
+    title:"BTS SIO Cybersécurité",
+    location:"Lycée CCI Gard, Nîmes",
+    description:"Au cours de cette formation j'ai pu apprendre de nombreuses bases essentielles en programmation, couplées à des connaissances approfondies dans les matières générales. ",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2024",
+    date:"2022 - 2024",
   },
   {
     title: "Full-Stack Developer",
