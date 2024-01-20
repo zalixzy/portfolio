@@ -8,6 +8,7 @@ export default function Footer() {
     </small>
     <p className="text-xs">
         <span className="font semibold">Ce site est construit avec React & Next.js, Typescript, Tailwind CSS, Framer Motion, React Email et hébergé sur CgVercel.</span>
+    </p>
     </footer>
   )
 }
