@@ -2,8 +2,8 @@
 
 import { projectsData } from '@/lib/data';
 import Image from 'next/image';
-import { useScroll } from 'framer-motion'
 import React, {useRef} from 'react'
+import { motion } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -15,13 +15,10 @@ type ProjectProps = (typeof projectsData)[number];
   imageUrl
 }: ProjectProps){
 
-  const ref = useRef(null);
-  useScroll({
-    target: '', 
-    offset:["0 1", "1.33 1"]
-  });
+ 
 
-  return <section className="group bg-gray-100 border rounded-t-lg border-black/5 max-w-[42rem] 
+  return <motion.section 
+  className="group bg-gray-100 border rounded-t-lg border-black/5 max-w-[42rem] 
   sm:pr-8 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 even:pl-8 hover:bg-gray-200 transition">
     <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full
     group-even:ml-[18rem]">
@@ -48,5 +45,5 @@ type ProjectProps = (typeof projectsData)[number];
     " 
     src={imageUrl} alt={title}  quality={95}  />
 
-  </section>
+  </motion.section>
 }
