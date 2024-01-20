@@ -69,7 +69,7 @@ export const projectsData = [
     imageUrl: AquaglisseImg,
   },
   {
-    title: "WPFFromage",
+    title: "WpfFromage",
     description:
       "Une application WPF avec un modèle PAC permettant de rechercher un fromage depuis un fichier json",
     tags: ["EntityFramework", "C#", "Modèle PAC",],
