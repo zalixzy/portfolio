@@ -3,7 +3,6 @@ import React from 'react';
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link"; 
-import LanguageSelector from './langageselector';
  
 export default function Header() {
   return (
@@ -44,15 +43,8 @@ export default function Header() {
           }
 
         </ul>
-       
+        
       </nav>
-      <motion.div className=""
-       initial = {{y:-100, x: "-50%",opacity:0}}
-       animate = {{y:0, x: "-50%", opacity:1}}
-       >
-      
-        <LanguageSelector />
-      </motion.div>
      
     </header>
   );

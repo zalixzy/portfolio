@@ -1,4 +1,6 @@
+"use client";
 import { useTranslation } from 'react-i18next';
+import { motion } from "framer-motion";
 
 
 // Page gérant l'ajout de boutton avec les images de langues différentes 
@@ -21,14 +23,17 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className='flex justify-end space-x-4 pr-4 items-center '>
+    <motion.div className='absolute justify-end space-x-4 pr-4 items-center 
+     top-8 right-6 '
+    initial = {{y:-100, x: "-50%",opacity:0}}
+    animate = {{y:0, x: "-50%", opacity:1}}>
       {Object.keys(languageImages).map((lang) => (
         <button key={lang} className='z-[999]' onClick={() => changeLanguage(lang)}>
           <img src={languageImages[lang]} alt={lang} className='w-8 h-8 mr-2 rounded-full border border-black/50' />
           
         </button>
       ))}
-    </div>
+    </motion.div>
   );
 };
 

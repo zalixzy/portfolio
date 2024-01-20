@@ -36,7 +36,7 @@ export default function About() {
             <span className="font-medium">apprendre de nouvelles choses car tout m'interesse</span>. Actuellement, je 
             me documente sur{" "}
             <span className="font-medium">l'impression 3D.</span> Enfin, je cherche chaque jour à devenir une meilleure 
-            version de moi-même et donner le sourire autour de moi.
+            version de moi-même et donner du sourire autour de moi.
         </p>
     </motion.section>
   )
