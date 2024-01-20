@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import AquaglisseImg from "@/public/aquaglisse.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ApiMeteoImg from "@/public/apimeteo.png";
+import WpfFromageImg from "@/public/wpffromage.png";
 
 export const links = [
   {
@@ -65,22 +65,22 @@ export const projectsData = [
     title: "Aquaglisse",
     description:
       "J'ai pu travailler au cours de mon stage sur un site web construit en React, Next.js, Tailwind et y ajouter des modules",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["React", "Next.js", "Tailwind", "Netlify"],
     imageUrl: AquaglisseImg,
   },
   {
-    title: "Portfollio",
+    title: "WPFFromage",
     description:
-      "Afin d'approfondir mes connaissances je me suis lancé sur un site web personnel en React, Next.js, Tailwind et hébergé.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Une application WPF avec un modèle PAC permettant de rechercher un fromage depuis un fichier json",
+    tags: ["EntityFramework", "C#", "Modèle PAC",],
+    imageUrl: WpfFromageImg,
   },
   {
-    title: "",
+    title: "ApiMeteo",
     description:
-      "Un projet suivit pas à pas afin de maîtriser pleinement le framework symfony et docker.",
-    tags: ["PHP", "Docker", "SQL", "Symfony", ""],
-    imageUrl: wordanalyticsImg,
+      "Un projet en WPF permettant de récupérer les prévisions météos ainsi que leurs descriptions à partir du code INSEE",
+    tags: ["API", "C#",],
+    imageUrl: ApiMeteoImg,
   },
 ] as const;
 
