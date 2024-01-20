@@ -78,7 +78,7 @@ export const projectsData = [
   {
     title: "ApiMeteo",
     description:
-      "Un projet en WPF permettant de récupérer les prévisions météos ainsi que leurs descriptions à partir du code INSEE",
+      "Un projet en WPF permettant de récupérer les prévisions météos ainsi que leurs descriptions à partir du code INSEE et d'une consommation d'API",
     tags: ["API", "C#",],
     imageUrl: ApiMeteoImg,
   },
