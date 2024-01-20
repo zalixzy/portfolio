@@ -16,8 +16,8 @@ import { FaGithubSquare } from 'react-icons/fa';
   export default function Intro() {
     const { t } = useTranslation();
     return (
-      <section className="mb-28 max-w-[50rem] text-center sm:mb-0 ">
-          <div className="flex items-center justify-center">
+      <section id="Accueil" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] ">
+          <div className="flex items-center justify-center ">
               <div className="">
                 <motion.div 
                   initial ={{opacity:0, scale: 0}}

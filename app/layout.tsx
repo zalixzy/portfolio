@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     // Couleur du background du site et couleurs permettant de styliser le background
-    <html lang="en">
+    <html className="!scroll-smooth" lang="en">
       <body className={`${inter.className} bg-sky-100 text-gray-950 relative h-[5000px] pt-28
        sm:pt-36 `}>
         {children}

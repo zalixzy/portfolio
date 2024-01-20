@@ -9,7 +9,7 @@ import Project from './projects';
 
 export default function Projects() {
   return (
-    <section>
+    <section id="Projets" className="scroll-mt-28 mb-28">
         <SectionHeading>Mes projets</SectionHeading>
         <div>
           {
