@@ -25,8 +25,9 @@ const LanguageSelector = () => {
   return (
     <motion.div className='absolute justify-end space-x-4 pr-4 items-center 
      top-8 right-6 '
-    initial = {{y:-100, x: "-50%",opacity:0}}
-    animate = {{y:0, x: "-50%", opacity:1}}>
+     initial ={{opacity:0, scale: 0}}
+     animate= {{opacity:1, scale:1}}
+     transition={{ type: "tween", duration: 0.2 }}>
       {Object.keys(languageImages).map((lang) => (
         <button key={lang} className='z-[999]' onClick={() => changeLanguage(lang)}>
           <img src={languageImages[lang]} alt={lang} className='w-8 h-8 mr-2 rounded-full border border-black/50' />

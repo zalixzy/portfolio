@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import AquaglisseImg from "@/public/aquaglisse.png";
 import ApiMeteoImg from "@/public/apimeteo.png";
 import WpfFromageImg from "@/public/wpffromage.png";
+import AvenirImg from "@/public/avenir.png";
 
 export const links = [
   {
@@ -81,6 +82,13 @@ export const projectsData = [
       "Un projet en WPF permettant de récupérer les prévisions météos ainsi que leurs descriptions à partir du code INSEE et d'une consommation d'API",
     tags: ["API", "C#",],
     imageUrl: ApiMeteoImg,
+  },
+  {
+  title: "ProjetSymfony",
+    description:
+      "A venir",
+    tags: ["Symfony", "PHP", "MySQL",],
+    imageUrl: AvenirImg,
   },
 ] as const;
 
