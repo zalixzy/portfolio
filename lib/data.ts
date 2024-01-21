@@ -46,7 +46,8 @@ export const experiencesData = [
     title:"BTS SIO Cybersécurité",
     location:"Lycée CCI Gard, Nîmes",
     description:"Au cours de cette formation j'ai pu apprendre de nombreuses bases essentielles en programmation, couplées à des connaissances approfondies dans les matières générales. ",
-    icon: React.createElement(CgWorkAlt),
+    // icon: React.createElement(CgWorkAlt)
+    icon: React.createElement(LuGraduationCap),
     date:"2022 - 2024",
   },
   {
@@ -54,7 +55,8 @@ export const experiencesData = [
     location: "A venir",
     description:
       "A venir",
-    icon: React.createElement(FaReact),
+    // icon: React.createElement(FaReact)
+    icon: React.createElement(LuGraduationCap),
     date: "2024 - present",
   },
 ] as const;
