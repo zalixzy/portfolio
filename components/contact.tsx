@@ -27,7 +27,7 @@ export default function Contact() {
       {/* borderBlack est la rule du global CSS, elle remplace border border-black/10 long à écrire */}
         <input className="h-14 rounded-lg borderBlack p-4" type="email" required={true} 
         placeholder="Votre mail" maxLength={500} name="email"></input> 
-        <textarea className="rounded-lg borderBlack py-4 h-52 my-3 p-4 " required={true} maxLength={500}
+        <textarea className="rounded-lg borderBlack py-4 h-52 my-3 p-4 " required={true} maxLength={5000}
         placeholder="Votre message" name="message"></textarea>
         <button className="flex items-center justify-center w-[8rem] text-white 
         rounded-full outline-none transition-all h-[3rem] gap-2 bg-gray-900

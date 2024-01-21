@@ -109,4 +109,5 @@ export const skillsData = [
   "C#",
   "EntityFramework",
   "Framer Motion",
+  "Resend",
 ] as const;
