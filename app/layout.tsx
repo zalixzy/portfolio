@@ -4,6 +4,7 @@ import Header from '@/components/header';
 import LanguageSelector from '@/components/langageselector';
 import Footer from '@/components/footer';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Toaster } from 'react-hot-toast';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -37,6 +38,7 @@ export default function RootLayout({
         <LanguageSelector/>
         <Header/>
         <Footer/>
+        <Toaster position="top-right"/>
         <SpeedInsights/>
         
         {/* {children} */}

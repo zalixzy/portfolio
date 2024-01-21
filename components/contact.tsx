@@ -3,6 +3,7 @@ import React from 'react'
 import SectionHeading from './section-heading'
 import { sendEmail } from '@/actions/sendEmail';
 import SubmitBTN from './submit-btn';
+import toast from 'react-hot-toast';
 
 export default function Contact() {
 
@@ -26,11 +27,11 @@ export default function Contact() {
         const{ data,error} = await sendEmail(formData);
 
         if(error){
-          alert(error);
+          toast.error(error);
           return;
         }
 
-        alert("L'email a bien été envoyé!");
+        toast.success("L'email a bien été envoyé!");
       }}>
       {/* borderBlack est la rule du global CSS, elle remplace border border-black/10 long à écrire */}
         <input className="h-14 rounded-lg borderBlack p-4" type="email" required={true} 
