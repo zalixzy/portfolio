@@ -13,7 +13,7 @@ export default function Contact() {
 
   
   return (
-    <section id="Contact" className="mb-20 sm:mb-28 w-[min(100%, 38rem)] text-center ">
+    <section id="Contact" className="scroll-mt-28 mb-20 sm:mb-28 w-[min(100%, 38rem)] text-center ">
 
       <SectionHeading>Me contacter</SectionHeading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
