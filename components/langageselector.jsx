@@ -30,7 +30,8 @@ const LanguageSelector = () => {
      transition={{ type: "tween", duration: 0.2 }}>
       {Object.keys(languageImages).map((lang) => (
         <button key={lang} className='z-[999]' onClick={() => changeLanguage(lang)}>
-          <img src={languageImages[lang]} alt={lang} className='w-8 h-8 mr-2 rounded-full border border-black/50' />
+          <img src={languageImages[lang]} alt={lang}
+           className='w-8 h-8 mr-2 rounded-full border border-black/50 focus:scale-105 hover:scale-105 active:scale-105' />
           
         </button>
       ))}
