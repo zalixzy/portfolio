@@ -1,18 +1,14 @@
 "use server";
 import { error } from 'console';
 import { Resend } from 'resend';
+import { validateString } from '@/lib/utils';
+import { getErrorMessage } from '@/lib/utils';
 
 const resend=new Resend (process.env.RESEND_API_KEY);
 
-const validateString = (value: unknown, maxLength:number)=>{
-    if(!value || typeof value!== "string" || value.length > maxLength){
-        return false;
-    }
-    return true;
-}
 
  export const sendEmail = async(formData: FormData) =>{
-    const senderEmail= formData.get('senderEmail');
+    const senderEmail= formData.get('email');
     const message=formData.get('message');
     //  console.log(formData.get("email"));
     // console.log(formData.get("message"));
@@ -36,11 +32,22 @@ const validateString = (value: unknown, maxLength:number)=>{
             error: 'Message invalide',    
         }
     }
+  
 
-    resend.emails.send({
-        from:'onboarding@resend.dev',
+    try{
+    await resend.emails.send({
+        from:'Formulaire de contact <onboarding@resend.dev>',
         to:'zalcontactme@gmail.com',
         subject:'Message du formulaire de contact',
-        text: message
+        reply_to: senderEmail as string,
+        text: message as string
     });
+    }
+    catch(error: unknown){
+       return{
+        error: getErrorMessage(error)
+       }
+    }
+    
+    
 }
