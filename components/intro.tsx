@@ -69,7 +69,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             <Link className="group bg-gray-800 text-white px-7 py-1 flex items-center gap-2 
             rounded-full outline-none focus:scale-105 hover:scale-105
              hover:bg-gray-950 active:scale-105 transition border border-white/10
-            " href="#contact">Me contacter 
+            " href="#Contact">Me contacter 
 
             <BsArrowRight className="opacity-80 group-hover:translate-x-1 transition translate-y-0.5" />
             </Link>
