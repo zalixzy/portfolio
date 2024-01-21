@@ -36,7 +36,7 @@ const resend=new Resend (process.env.RESEND_API_KEY);
         }
     }
   
-
+    let data;
     try{
     await resend.emails.send({
         from:'Formulaire de contact <onboarding@resend.dev>',
@@ -54,5 +54,8 @@ const resend=new Resend (process.env.RESEND_API_KEY);
        }
     }
     
+    return{
+        data
+    };
     
 }

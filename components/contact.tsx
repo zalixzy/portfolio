@@ -23,7 +23,14 @@ export default function Contact() {
         ou à travers ce formulaire
       </p>
       <form className="mt-10 flex flex-col" action={async formData =>{
-        await sendEmail(formData);
+        const{ data,error} = await sendEmail(formData);
+
+        if(error){
+          alert(error);
+          return;
+        }
+
+        alert("L'email a bien été envoyé!");
       }}>
       {/* borderBlack est la rule du global CSS, elle remplace border border-black/10 long à écrire */}
         <input className="h-14 rounded-lg borderBlack p-4" type="email" required={true} 
