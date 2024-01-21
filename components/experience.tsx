@@ -10,7 +10,7 @@ import { experiencesData } from '@/lib/data';
 
 export default function Experiences() {
   return (
-    <section id="Experience">
+    <section id="Experience" className="scroll-mt-28">
 
         <SectionHeading>Mon experience</SectionHeading>
         <VerticalTimeline lineColor="">
