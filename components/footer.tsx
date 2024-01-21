@@ -7,7 +7,7 @@ export default function Footer() {
     &copy;2024 Travier Thomas. Tous droits réservés.
     </small>
     <p className="text-xs">
-        <span className="font semibold">Ce site est construit avec React & Next.js, Typescript, Tailwind CSS, Framer Motion, React Email et hébergé sur Vercel.</span>
+        <span className="font semibold">Ce site est construit avec React & Next.js, Typescript, Tailwind CSS, Framer Motion, React Email, Resend et hébergé sur Vercel.</span>
     </p>
     </footer>
   )

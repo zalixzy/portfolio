@@ -3,6 +3,9 @@ import { error } from 'console';
 import { Resend } from 'resend';
 import { validateString } from '@/lib/utils';
 import { getErrorMessage } from '@/lib/utils';
+import ContactFormEmail from '@/email/contact-form-email';
+import React from 'react'
+import Contact from '@/components/contact';
 
 const resend=new Resend (process.env.RESEND_API_KEY);
 
@@ -40,8 +43,10 @@ const resend=new Resend (process.env.RESEND_API_KEY);
         to:'zalcontactme@gmail.com',
         subject:'Message du formulaire de contact',
         reply_to: senderEmail as string,
-        text: message as string
-    });
+        react: React.createElement(ContactFormEmail,{
+            message: message as string, email: senderEmail as string
+        }),
+        });
     }
     catch(error: unknown){
        return{
