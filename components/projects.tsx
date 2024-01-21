@@ -2,7 +2,7 @@
 
 import { projectsData } from '@/lib/data';
 import Image from 'next/image';
-import React, {useRef} from 'react'
+import React from 'react'
 import { motion } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
