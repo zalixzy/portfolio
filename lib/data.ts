@@ -3,9 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import AquaglisseImg from "@/public/aquaglisse.png";
-import ApiMeteoImg from "@/public/apimeteo.png";
-import WpfFromageImg from "@/public/wpffromage.png";
 import AvenirImg from "@/public/avenir.png";
+import wpfImg from "@/public/wpf.jpg";
 
 export const links = [
   {
@@ -70,24 +69,24 @@ export const projectsData = [
     imageUrl: AquaglisseImg,
   },
   {
-    title: "WpfFromage",
+    title: "WpfFromage/Meteo",
     description:
-      "Une application WPF avec un modèle PAC permettant de rechercher un fromage depuis un fichier json",
-    tags: ["EntityFramework", "C#", "Modèle PAC",],
-    imageUrl: WpfFromageImg,
+      "Deux applications WPF, Un modèle PAC permettant de rechercher un fromage depuis un JSON, le second pour afficher les prévisions météos à partir d'une consommation d'API",
+    tags: ["EntityFramework", "C#", "Modèle PAC", "API"],
+    imageUrl: wpfImg,
   },
   {
-    title: "ApiMeteo",
+    title: "Symfony",
     description:
-      "Un projet en WPF permettant de récupérer les prévisions météos ainsi que leurs descriptions à partir du code INSEE et d'une consommation d'API",
-    tags: ["API", "C#",],
-    imageUrl: ApiMeteoImg,
+     "A venir",
+    tags: ["PHP", "Symfony","Docker"],
+    imageUrl: AvenirImg,
   },
   {
-  title: "ProjetSymfony",
+  title: "API Catalogue Randonnee",
     description:
-      "A venir",
-    tags: ["Symfony", "PHP", "MySQL",],
+      "Un projet utilisant Golang associé à Mysql proposant une API avec un catalogue de randonnées et leurs informations en JSON ",
+    tags: ["GO", "Postman", "MySQL",],
     imageUrl: AvenirImg,
   },
 ] as const;
@@ -110,4 +109,6 @@ export const skillsData = [
   "EntityFramework",
   "Framer Motion",
   "Resend",
+  "Postman",
+  "GO",
 ] as const;
