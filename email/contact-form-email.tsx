@@ -24,10 +24,10 @@ export default function ContactFormEmail({
         <Head/>
             <Preview>Nouveau message de ton portfolio </Preview>
             <Tailwind>
-                <Body>
+                <Body className="bg-gray-100 text-gray-800">
                     <Container>
-                        <Section>
-                            <Heading>Tu as reçu un nouveau message depuis le formulaire</Heading>
+                        <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+                            <Heading className="leading-tight">Tu as reçu un nouveau message depuis le formulaire</Heading>
                             <Text>{message}</Text>
                             <Hr/>
                             <Text>L'email de l'expéditeur est: {email}</Text>
