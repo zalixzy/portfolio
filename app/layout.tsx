@@ -30,9 +30,9 @@ export default function RootLayout({
         w-[50rem] -z-10 rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left[-28rem]
         xl:left-[-15rem] 2xl:left-[-5rem]"></div>
 
-        <div className="bg-gray-400 absolute bottom-[-6rem] right-[11rem] h-[10rem] 
+        <div className="bg-gray-400 absolute  right-[11rem] h-[10rem] 
         w-[31.25rem] -z-10 rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-        <div className="bg-blue-400  absolute bottom-[-1rem] left-[-35rem] h-[10rem] 
+        <div className="bg-blue-400  absolute bottom-[-0.5rem] left-[-35rem] h-[10rem] 
         w-[50rem] -z-10 rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left[-28rem]
         xl:left-[-15rem] 2xl:left-[-5rem]"></div>
         <LanguageSelector/>
@@ -40,7 +40,6 @@ export default function RootLayout({
         <Footer/>
         <Toaster position="top-right"/>
         <SpeedInsights/>
-        
         {/* {children} */}
       </body>
     </html>
