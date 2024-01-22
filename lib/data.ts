@@ -86,7 +86,7 @@ export const projectsData = [
   {
   title: "API Catalogue Randonnee",
     description:
-      "Un projet utilisant Golang associé à MySQL proposant une API avec un catalogue de randonnées et leurs informations en JSON ",
+      "Un projet utilisant Golang associé à MySQL proposant une API REST avec un catalogue de randonnées et leurs informations en JSON ",
     tags: ["GO", "Postman", "MySQL", "GORM"],
     imageUrl: CatalogueRandonneeGoImg,
   },
