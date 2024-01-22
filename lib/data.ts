@@ -84,7 +84,7 @@ export const projectsData = [
     imageUrl: AvenirImg,
   },
   {
-  title: "API Catalogue Randonnee",
+  title: "API REST Catalogue Randonnee",
     description:
       "Un projet utilisant Golang associé à MySQL proposant une API REST avec un catalogue de randonnées et leurs informations en JSON ",
     tags: ["GO", "Postman", "MySQL", "GORM"],
