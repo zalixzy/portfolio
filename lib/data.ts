@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import AquaglisseImg from "@/public/aquaglisse.png";
 import AvenirImg from "@/public/avenir.png";
 import wpfImg from "@/public/wpf.jpg";
+import CatalogueRandonneeGoImg from "@/public/CatalogueRandonneeGo.jpg";
 
 export const links = [
   {
@@ -87,7 +88,7 @@ export const projectsData = [
     description:
       "Un projet utilisant Golang associé à Mysql proposant une API avec un catalogue de randonnées et leurs informations en JSON ",
     tags: ["GO", "Postman", "MySQL", "GORM"],
-    imageUrl: AvenirImg,
+    imageUrl: CatalogueRandonneeGoImg,
   },
 ] as const;
 
