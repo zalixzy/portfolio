@@ -18,7 +18,7 @@ export default function About() {
             , j'ai décidé de poursuivre <span className="font-medium">ma passion</span>{" "}
             pour la programmation et l'informatique. J'ai rejoint le BTS SIO Cybersécurité option Mathématiques Approfondis en 2022{" "}
             <span className="font-medium">(Solutions logiciels et Applications métiers)</span>.{" "}
-            <span className="italic">Ce que je préfère dans ces domaines</span> sont leurs vaste champ d'utilisations
+            <span className="italic">Ce que je préfère dans ces domaines</span> sont leurs vaste champ d'applications
             et les nombreux services qui leurs sont liés <span className="underline">mais aussi</span> les innombrables
             façon différentes de parvenir à résoudre une même problématique. 
                 {" "}
