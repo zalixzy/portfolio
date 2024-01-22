@@ -5,7 +5,6 @@ import { validateString } from '@/lib/utils';
 import { getErrorMessage } from '@/lib/utils';
 import ContactFormEmail from '@/email/contact-form-email';
 import React from 'react'
-import Contact from '@/components/contact';
 
 const resend=new Resend (process.env.RESEND_API_KEY);
 
