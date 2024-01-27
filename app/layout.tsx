@@ -35,7 +35,7 @@ export default function RootLayout({
         <div className="bg-blue-400  absolute bottom-[-0.5rem] left-[-35rem] h-[10rem] 
         w-[50rem] -z-10 rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left[-28rem]
         xl:left-[-15rem] 2xl:left-[8rem]"></div>
-        <LanguageSelector/>
+        {/* <LanguageSelector/> */}
         <Header/>
         {children}
         <Footer/>
