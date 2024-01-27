@@ -102,6 +102,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "API",
+  "Cloudinary",
   "MySQL",
   "Docker",
   "PHP",
