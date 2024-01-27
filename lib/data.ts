@@ -107,6 +107,7 @@ export const skillsData = [
   "PHP",
   "Symfony",
   "C#",
+  "Prisma",
   "EntityFramework",
   "Framer Motion",
   "Resend",
