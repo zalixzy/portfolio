@@ -101,8 +101,6 @@ export const skillsData = [
   "Next.js",
   "Git",
   "Tailwind",
-  "API",
-  "Cloudinary",
   "MySQL",
   "Docker",
   "PHP",
@@ -110,8 +108,7 @@ export const skillsData = [
   "C#",
   "Prisma",
   "EntityFramework",
-  "Framer Motion",
-  "Resend",
   "Postman",
+  "Shadcn-ui",
   "GO",
 ] as const;
