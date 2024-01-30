@@ -23,7 +23,7 @@ export default function About() {
             façon différentes de parvenir à résoudre une même problématique. 
                 {" "}
             <span className="font-medium">
-            PHP, C#, React, Next.js,  {" "}
+            PHP, C#, JavaScript, GO,  {" "}
             </span>
             sont pour le moment les langages que je maîtrise le mieux.
             J'ai déjà pu travailler avec Typescript et Javascript également et suis toujours curieux de 
