@@ -29,7 +29,7 @@ export default function About() {
             J'ai déjà pu travailler avec Typescript et Javascript également et suis toujours curieux de 
             découvrir de nouvelles technologies permettant d'ajouter des cordes à mon arc.
             Je cherche actuellement une{" "}
-            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en informatique.
+            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en informatique et informatique pour la santé.
         </p>
         <p className="mb-3">
             <span className="italic">Dans mon temps libre</span>, j'aime faire de la randonnée, 
@@ -37,7 +37,8 @@ export default function About() {
             <span className="font-medium">apprendre de nouvelles choses car tout m'interesse</span>. Actuellement, je 
             me documente sur{" "}
             <span className="font-medium">l'impression 3D.</span> Enfin, je cherche chaque jour à devenir une meilleure 
-            version de moi-même et donner du sourire autour de moi.
+            version de moi-même et donner du sourire autour de moi. Je compte mettre tout en oeuvre pour à terme devenir Chef de projet 
+            informatique ou Ingénieur Biomédical.
         </p>
     </motion.section>
   )
