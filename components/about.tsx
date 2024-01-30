@@ -37,8 +37,11 @@ export default function About() {
             <span className="font-medium">apprendre de nouvelles choses car tout m'interesse</span>. Actuellement, je 
             me documente sur{" "}
             <span className="font-medium">l'impression 3D.</span> Enfin, je cherche chaque jour à devenir une meilleure 
-            version de moi-même et donner du sourire autour de moi. Je compte mettre tout en oeuvre pour à terme devenir Chef de projet 
-            informatique ou Ingénieur Biomédical.
+            version de moi-même et donner du sourire autour de moi. 
+        </p>
+        <p className="mb-3">
+            Je compte mettre tout en oeuvre pour à terme devenir <span className="font-medium">Chef de projet 
+            informatique ou Ingénieur Biomédical</span>.
         </p>
     </motion.section>
   )
