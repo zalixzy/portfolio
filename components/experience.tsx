@@ -12,7 +12,7 @@ export default function Experiences() {
   return (
     <section id="Experience" className="scroll-mt-28 mb-28">
 
-        <SectionHeading>Ma scolarité</SectionHeading>
+        <SectionHeading>Ma Scolarité</SectionHeading>
         <VerticalTimeline lineColor="">
             
                 {experiencesData.map((item, index) =>(
