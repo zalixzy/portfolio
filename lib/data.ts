@@ -57,7 +57,7 @@ export const experiencesData = [
       "A venir",
     // icon: React.createElement(FaReact)
     icon: React.createElement(LuGraduationCap),
-    date: "2024 - present",
+    date: "2024 - présent",
   },
 ] as const;
 
