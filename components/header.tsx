@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
-import Link from "next/link"; 
+import Link from "next/link";  
  
 export default function Header() {
   return (
@@ -37,15 +37,19 @@ export default function Header() {
                 }
                 </Link>
               </motion.li>
+              
 
             ))
+            
 
           }
 
         </ul>
-        
+       
       </nav>
-     
+      <div className="flex justify-end mr-20 z-[100">
+        
+      </div>
     </header>
   );
 }

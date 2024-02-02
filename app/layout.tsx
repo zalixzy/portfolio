@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from '@/components/header';
-import LanguageSelector from '@/components/langageselector';
+import { ThemeProvider } from '@/providers/theme-provider';
 import Footer from '@/components/footer';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Toaster } from 'react-hot-toast';
@@ -36,12 +36,14 @@ export default function RootLayout({
         w-[50rem] -z-10 rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left[-28rem]
         xl:left-[-15rem] 2xl:left-[8rem]"></div>
         {/* <LanguageSelector/> */}
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <Header/>
         {children}
         <Footer/>
         
         <Toaster position="top-right"/>
         <SpeedInsights/>
+        </ThemeProvider>
         
         {/* {children} */}
       </body>

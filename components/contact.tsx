@@ -4,6 +4,7 @@ import SectionHeading from './section-heading'
 import { sendEmail } from '@/actions/sendEmail';
 import SubmitBTN from './submit-btn';
 import toast from 'react-hot-toast';
+import { ThemeToggle } from './theme-toggle';
 
 export default function Contact() {
 
@@ -38,7 +39,10 @@ export default function Contact() {
         placeholder="Votre mail" maxLength={500} name="email"></input> 
         <textarea className="rounded-lg borderBlack py-4 h-52 my-3 p-4 " required={true} maxLength={5000}
         placeholder="Votre message" name="message"></textarea>
-       <SubmitBTN/>
+        <div className="flex items-center space-x-4">
+          <SubmitBTN/>
+          <ThemeToggle/>
+        </div>
       </form>
     </section>
   )
