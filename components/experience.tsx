@@ -26,7 +26,7 @@ export default function Experiences() {
                         padding: "1.3rem 2rem"                    
                     }}
                     contentArrowStyle={{
-                        borderRight: "0.4rem solid #0000ff",
+                        borderRight: "0.4rem solid #42A5F5",
 
                     }}
                     date={item.date}
