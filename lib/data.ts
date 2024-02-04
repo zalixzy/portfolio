@@ -1,10 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import AquaglisseImg from "@/public/aquaglisse.png";
 import AvenirImg from "@/public/avenir.png";
 import wpfImg from "@/public/wpf.jpg";
+import Imprim3dIMG from "@/public/imprimante3d.jpg";
 import CatalogueRandonneeGoImg from "@/public/CatalogueRandonneeGo.jpg";
 
 export const links = [
@@ -68,6 +67,13 @@ export const projectsData = [
       "J'ai pu travailler au cours de mon stage sur un site web construit en React, Next.js, Tailwind et y ajouter des modules",
     tags: ["React", "Next.js", "Tailwind", "Netlify"],
     imageUrl: AquaglisseImg,
+  },
+  {
+    title: "Imprim3D",
+    description:
+      "Un CMS ( partie admin ) permettant de gérer le contenu affiché sur un site marchand ( partie utilisateur ) et effectué des paiement sécurisés",
+    tags: ["React", "Typescript", "Prisma", "Stripe", "Shadcn-ui", "Clerck", "Cloudinary"],
+    imageUrl: Imprim3dIMG,
   },
   {
     title: "WpfFromage/Meteo",
