@@ -12,10 +12,18 @@ type ProjectProps = (typeof projectsData)[number];
   title,
   description,
   tags,
-  imageUrl
+  imageUrl,
+  redirect
 }: ProjectProps){
 
- 
+ const handleClick = () => {
+  if (redirect !== "") {
+    const confirmRedirect = window.confirm("Êtes-vous sûr de vouloir être redirigé ?");
+    if (confirmRedirect) {
+      window.open(redirect, '_blank');
+    }
+  }
+};
 
   return <motion.section 
   className="group bg-gray-100 border rounded-t-lg border-black/5 max-w-[42rem] 
@@ -33,7 +41,7 @@ type ProjectProps = (typeof projectsData)[number];
     </div>
     
 
-    <Image className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
+    <Image onClick={handleClick} className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
     group-even:-right-[initial] transition 
     group-hover:-translate-x-3 group-hover:scale-[1.04]
     group-hover:translate-y-3 group-hover:-rotate-2 group-even:right-[initial]
@@ -43,7 +51,7 @@ type ProjectProps = (typeof projectsData)[number];
     group-even:group-hover:translate-x-3
     group-even:group-hover:rotate-2
     " 
-    src={imageUrl} alt={title}  quality={95}  />
+    src={imageUrl} alt={title}  quality={95} style={{cursor: 'pointer'}}  />
 
   </motion.section>
 }

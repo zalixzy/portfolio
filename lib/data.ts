@@ -67,6 +67,7 @@ export const projectsData = [
       "J'ai pu travailler au cours de mon stage sur un site web construit en React, Next.js, Tailwind et y ajouter des modules",
     tags: ["React", "Next.js", "Tailwind", "Netlify"],
     imageUrl: AquaglisseImg,
+    redirect: "https://aquaglisse.fr"
   },
   {
     title: "Imprim3D",
@@ -74,6 +75,7 @@ export const projectsData = [
       "Un CMS ( partie admin ) permettant de gérer le contenu affiché sur un site marchand ( partie utilisateur ) et effectuer des paiement sécurisés",
     tags: ["React", "Typescript", "Prisma", "Stripe", "Shadcn-ui", "Clerck", "Cloudinary"],
     imageUrl: Imprim3dIMG,
+    redirect: "https://imprimante3d-magasin.vercel.app/"
   },
   {
     title: "WpfFromage/Meteo",
@@ -81,6 +83,7 @@ export const projectsData = [
       "Deux applications WPF, Un modèle PAC permettant de rechercher un fromage depuis un JSON, le second pour afficher les prévisions météos à partir d'une consommation d'API",
     tags: ["EntityFramework", "C#", "Modèle PAC", "API"],
     imageUrl: wpfImg,
+    redirect: ""
   },
   {
     title: "Symfony",
@@ -88,6 +91,7 @@ export const projectsData = [
      "A venir",
     tags: ["PHP", "Symfony","Docker"],
     imageUrl: AvenirImg,
+    redirect: ""
   },
   {
   title: "API REST Catalogue Randonnee",
@@ -95,6 +99,7 @@ export const projectsData = [
       "Un projet utilisant Golang associé à MySQL proposant une API REST avec un catalogue de randonnées et leurs informations en JSON ",
     tags: ["GO", "Postman", "MySQL", "GORM"],
     imageUrl: CatalogueRandonneeGoImg,
+    redirect: ""
   },
 ] as const;
 
