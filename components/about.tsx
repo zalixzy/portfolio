@@ -26,22 +26,21 @@ export default function About() {
             PHP, C#, JavaScript, GO,  {" "}
             </span>
             sont pour le moment les langages que je maîtrise le mieux.
-            J'ai déjà pu travailler avec Typescript et Javascript également et suis toujours curieux de 
-            découvrir de nouvelles technologies permettant d'ajouter des cordes à mon arc.
+            J'ai déjà pu travailler avec Typescript et suis toujours curieux de 
+            découvrir de nouvelles technologies permettant d'ajouter des cordes à ma raquette de tennis.
             Je cherche actuellement une{" "}
-            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en informatique et informatique pour la santé.
+            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en technologies de l'information pour la santé ou informatique pour la santé.
         </p>
         <p className="mb-3">
             <span className="italic">Dans mon temps libre</span>, j'aime faire de la randonnée, 
-            m'intéresser à la géopolitique, le trading et passer du temps avec mes proches. J'aime aussi{" "}
-            <span className="font-medium">apprendre de nouvelles choses car tout m'interesse</span>. Actuellement, je 
-            me documente sur{" "}
-            <span className="font-medium">l'impression 3D.</span> Enfin, je cherche chaque jour à devenir une meilleure 
+            m'intéresser à la géopolitique, la finance et passer du temps avec mes proches. J'aime aussi{" "}
+            <span className="font-medium">apprendre de nouvelles choses car tout m'interesse</span>. Je participe également en tant que bénévole pour l'association{" "}
+            <span className="font-medium">les Blouses Roses de Nîmes.</span> Enfin, je cherche chaque jour à devenir une meilleure 
             version de moi-même et donner du sourire autour de moi. 
         </p>
         <p className="mb-3">
             Je compte mettre tout en oeuvre pour à terme devenir <span className="font-medium">Chef de projet 
-            informatique ou Ingénieur Biomédical</span>.
+            informatique, Ingénieur Biomédical ou Ingénieur en imagerie médicale</span>.
         </p>
     </motion.section>
   )
