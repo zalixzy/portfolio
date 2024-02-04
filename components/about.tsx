@@ -40,7 +40,7 @@ export default function About() {
         </p>
         <p className="mb-3">
             Je compte mettre tout en oeuvre pour à terme devenir <span className="font-medium">Chef de projet 
-            informatique, Ingénieur Biomédical ou Ingénieur en imagerie médicale</span>.
+            , Ingénieur Biomédical ou Ingénieur en imagerie médicale</span>.
         </p>
     </motion.section>
   )
