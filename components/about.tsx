@@ -34,7 +34,7 @@ export default function About() {
         <p className="mb-3">
             <span className="italic">Dans mon temps libre</span>, j'aime faire de la randonnée, 
             m'intéresser à la géopolitique, la finance et passer du temps avec mes proches. J'aime aussi{" "}
-            <span className="font-medium">apprendre de nouvelles choses car tout m'interesse</span>. Je participe également en tant que bénévole pour l'association{" "}
+            <span className="font-medium">apprendre de nouvelles choses car tout m'interesse ( en ce moment je me documente sur l'impression 3D )</span>. Je participe également en tant que bénévole pour l'association{" "}
             <span className="font-medium">les Blouses Roses de Nîmes.</span> Enfin, je cherche chaque jour à devenir une meilleure 
             version de moi-même et donner du sourire autour de moi. 
         </p>
