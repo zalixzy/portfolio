@@ -16,11 +16,11 @@ export default function About() {
         <p className="mb-3">
             Après plusieurs expériences professionnelles{" "}
             , j'ai décidé de poursuivre <span className="font-medium">ma passion</span>{" "}
-            pour la programmation et l'informatique. J'ai rejoint le BTS SIO Cybersécurité option Mathématiques Approfondis en 2022{" "}
-            <span className="font-medium">(Solutions logiciels et Applications métiers)</span>.{" "}
-            <span className="italic">Ce que je préfère dans ces domaines</span> sont leurs vaste champ d'applications
+            pour la programmation et l'informatique. J'ai rejoint le BTS SIO Cybersécurité option Mathématiques Approfondies en 2022{" "}
+            <span className="font-medium">(Solutions logicielles et Applications métiers)</span>.{" "}
+            <span className="italic">Ce que je préfère dans ces domaines</span> sont leur vaste champ d'applications
             et les nombreux services qui leurs sont liés <span className="underline">mais aussi</span> les innombrables
-            façon différentes de parvenir à résoudre une même problématique. 
+            façons différentes de parvenir à résoudre une même problématique. 
                 {" "}
             <span className="font-medium">
             PHP, C#, JavaScript, GO,  {" "}
@@ -39,7 +39,7 @@ export default function About() {
             version de moi-même et donner du sourire autour de moi. 
         </p>
         <p className="mb-3">
-            Je compte mettre tout en oeuvre pour à terme devenir <span className="font-medium">Chef de projet 
+            Je compte mettre tout en œuvre pour à terme devenir <span className="font-medium">Chef de projet 
             , Ingénieur Biomédical ou Ingénieur en imagerie médicale</span>.
         </p>
     </motion.section>
