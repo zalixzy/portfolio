@@ -2,8 +2,9 @@
 
 import { projectsData } from '@/lib/data';
 import Image from 'next/image';
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from "framer-motion";
+import { Button } from './ui/button';
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -16,14 +17,25 @@ type ProjectProps = (typeof projectsData)[number];
   redirect
 }: ProjectProps){
 
- const handleClick = () => {
-  if (redirect !== "") {
-    const confirmRedirect = window.confirm("Êtes-vous sûr de vouloir être redirigé ?");
-    if (confirmRedirect) {
-      window.open(redirect, '_blank');
+  const [showDialog, setShowDialog] = useState(false);
+
+  const handleClick = () => {
+    if (redirect !== "") {
+      // Affiche la boîte de dialogue
+      setShowDialog(true);
     }
-  }
-};
+  };
+
+  const handleConfirm = () => {
+    // Redirection si l'utilisateur clique sur "Oui"
+    window.open(redirect, '_blank');
+    // Ferme la boîte de dialogue
+    setShowDialog(false);
+  };
+  const handleCancel = () => {
+    // Ferme la boîte de dialogue si l'utilisateur clique sur "Non"
+    setShowDialog(false);
+  };
 
   return <motion.section 
   className="group bg-gray-100 border rounded-t-lg border-black/5 max-w-[42rem] 
@@ -39,6 +51,17 @@ type ProjectProps = (typeof projectsData)[number];
       ))}
     </ul>
     </div>
+    {showDialog && (
+        <div className="dialog fixed inset-0 z-20 backdrop-blur-md bg-slate-50 dark:bg-slate-800 bg-opacity-25 dark:bg-opacity-25 flex flex-col items-center justify-center select-none">
+           <div className='w-[18rem] max-w-3xl z-30 p-5 drop-shadow-lg'>
+           <div className='mb-5 items-center justify-between p-4 rounded-md bg-sky-100 dark:bg-slate-800 space-x-7 space-y-5'>
+           <h2 className='place-self-start font-bold font-handwriting self-start'>Voulez-vous être redirigé ?</h2>
+              <Button onClick={handleConfirm}>Oui</Button>
+              <Button onClick={handleCancel}>Non</Button>
+            </div>
+          </div>
+        </div>
+      )}
     
 
     <Image onClick={handleClick} className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
