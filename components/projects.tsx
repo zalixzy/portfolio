@@ -38,7 +38,7 @@ type ProjectProps = (typeof projectsData)[number];
   };
 
   return <motion.section 
-  className="group bg-gray-100 border rounded-t-lg border-black/5 max-w-[42rem] 
+  className="group bg-gray-100 border rounded-t-lg border-black/5 max-w-[45rem] 
   sm:pr-8 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 even:pl-8 hover:bg-gray-200 transition">
     <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full
     group-even:ml-[18rem]">
@@ -64,7 +64,7 @@ type ProjectProps = (typeof projectsData)[number];
       )}
     
 
-    <Image onClick={handleClick} className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl  
+    <Image onClick={handleClick} className="absolute top-8 -right-40 w-[30rem] rounded-t-lg shadow-2xl  
     group-even:-right-[initial] transition 
     group-hover:-translate-x-3 group-hover:scale-[1.04]
     group-hover:translate-y-3 group-hover:-rotate-2 group-even:right-[initial]

@@ -83,7 +83,7 @@ export const projectsData = [
       "Deux applications WPF, Un modèle PAC permettant de rechercher un fromage depuis un JSON, le second pour afficher les prévisions météos à partir d'une consommation d'API",
     tags: ["EntityFramework", "C#", "Modèle PAC", "API"],
     imageUrl: wpfImg,
-    redirect: ""
+    redirect: "wpf.jpg"
   },
   {
     title: "Symfony",
@@ -99,7 +99,7 @@ export const projectsData = [
       "Un projet utilisant Golang associé à MySQL proposant une API REST avec un catalogue de randonnées et leurs informations en JSON ",
     tags: ["GO", "Postman", "MySQL", "GORM"],
     imageUrl: CatalogueRandonneeGoImg,
-    redirect: ""
+    redirect: "CatalogueRandonneeGo.jpg"
   },
 ] as const;
 
