@@ -64,7 +64,7 @@ type ProjectProps = (typeof projectsData)[number];
       )}
     
 
-    <Image onClick={handleClick} className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
+    <Image onClick={handleClick} className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl  
     group-even:-right-[initial] transition 
     group-hover:-translate-x-3 group-hover:scale-[1.04]
     group-hover:translate-y-3 group-hover:-rotate-2 group-even:right-[initial]
