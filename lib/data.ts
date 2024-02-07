@@ -44,7 +44,7 @@ export const experiencesData = [
   {
     title:"BTS SIO Cybersécurité",
     location:"Lycée CCI Gard, Nîmes",
-    description:"Au cours de cette formation j'ai pu apprendre de nombreuses bases essentielles en programmation, couplées à des connaissances approfondies dans les matières générales. ",
+    description:"Spécialité Solutions Logicielles et Applications Metiers avec option Mathématiques approfondies.",
     // icon: React.createElement(CgWorkAlt)
     icon: React.createElement(LuGraduationCap),
     date:"2022 - 2024",
