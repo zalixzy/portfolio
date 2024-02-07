@@ -20,10 +20,17 @@ type ProjectProps = (typeof projectsData)[number];
   const [showDialog, setShowDialog] = useState(false);
 
   const handleClick = () => {
-    if (redirect !== "") {
-      // Affiche la boîte de dialogue
-      setShowDialog(true);
+    if( redirect.endsWith("jpg") || redirect.endsWith("png" )){
+      window.open(redirect, '_blank');
+      
+    }else{
+      if (redirect !== "") {
+        // Affiche la boîte de dialogue
+        setShowDialog(true);
+      }
+  
     }
+    
   };
 
   const handleConfirm = () => {
