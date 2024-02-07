@@ -83,7 +83,7 @@ export const projectsData = [
       "Deux applications WPF, Un modèle PAC permettant de rechercher un fromage depuis un JSON, le second pour afficher les prévisions météos à partir d'une consommation d'API",
     tags: ["EntityFramework", "C#", "Modèle PAC", "API"],
     imageUrl: wpfImg,
-    redirect: "wpf.jpg"
+    redirect: "fusion_wpf.png"
   },
   {
     title: "Symfony",
