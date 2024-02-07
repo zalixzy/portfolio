@@ -35,9 +35,9 @@ export const links = [
 
 export const experiencesData = [
   {
-    title:"BAC S option SVT",
+    title:"Baccalauréat Scientifique",
     location:"Lycée Alphonse Daudet, Nîmes",
-    description:"J'ai obtenu mon baccalaureat scientifique en 2016",
+    description:"Spécialité Science de la Vie et de la Terre",
     icon: React.createElement(LuGraduationCap),
     date:"2016",
   },
