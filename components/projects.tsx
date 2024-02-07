@@ -60,11 +60,13 @@ type ProjectProps = (typeof projectsData)[number];
     </div>
     {showDialog && (
         <div className="dialog fixed inset-0 z-20 backdrop-blur-md bg-slate-50 dark:bg-slate-800 bg-opacity-25 dark:bg-opacity-25 flex flex-col items-center justify-center select-none">
-           <div className='w-[18rem] max-w-3xl z-30 p-5 drop-shadow-lg'>
-              <div className='mb-5 items-center justify-between p-4 rounded-md bg-sky-100 dark:bg-slate-800 space-x-7 space-y-5'>
-                <h2 className='place-self-start font-semibold font-handwriting self-start'>Voulez-vous être redirigé ?</h2>
-                    <Button onClick={handleConfirm}>Oui</Button>
-                    <Button onClick={handleCancel}>Non</Button>
+           <div className='  max-w-3xl z-30 p-5 drop-shadow-lg'>
+              <div className=' w-[18rem] h-[10rem] mb-5 items-center justify-between p-4 rounded-md bg-sky-100 dark:bg-slate-800'>
+                <h2 className='place-self-start font-semibold font-handwriting self-start py-5 px-5'>Voulez-vous être redirigé ?</h2>
+                    <div className="px-12 space-y-2 space-x-5 ">
+                      <Button onClick={handleConfirm}>Oui</Button>
+                      <Button onClick={handleCancel}>Non</Button>
+                    </div>
               </div>
           </div>
         </div>
