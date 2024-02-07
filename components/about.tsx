@@ -26,7 +26,7 @@ export default function About() {
             PHP, C#, JavaScript  {" "}
             </span>
             sont pour le moment les langages que je maîtrise le mieux.
-            J'ai déjà pu travailler avec Typescript et suis toujours curieux de 
+            J'ai déjà pu travailler avec Typescript, GO et suis toujours curieux de 
             découvrir de nouvelles technologies permettant d'ajouter des cordes à mon arc.
             Je cherche actuellement une{" "}
             <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en technologies de l'information pour la santé ou informatique pour la santé.
