@@ -106,8 +106,8 @@ import { FaGithubSquare } from 'react-icons/fa';
           <a className="block mx-auto bg-gray-200 text-gray-950 px-7 py-2 items-center gap-2 justify-center  
             rounded-full outline-none hover:scale-105 focus:scale-105 font-semibold text-center w-[17rem] h-[2.5rem]
             hover:bg-gray-100 active:scale-105 transition cursor-pointer border border-black/10 mt-8"
-            href="/recommandation_f.pdf" download>
-            Lettre de recommandation
+            href="/recommandation_fusion.pdf" download>
+            Lettres de recommandation
           </a>
           </motion.div>
 
