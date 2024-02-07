@@ -10,7 +10,7 @@ export default function Skills() {
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
             {
                 skillsData.map((skill, index) =>( 
-                    <li className="bg-white border boder-black/10 rounded-xl hover:text-sky-200 hover:bg-gray-800
+                    <li className="bg-white border boder-black/10 rounded-xl hover:text-sky-200 hover:bg-gray-800 
                     px-5 py-3" key={index}>{skill}</li>
 
             ))}
