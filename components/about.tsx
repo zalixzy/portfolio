@@ -39,7 +39,7 @@ export default function About() {
             version de moi-même et donner du sourire autour de moi. 
         </p>
         <p className="mb-3">
-            Je compte mettre tout en œuvre pour à terme devenir <span className="font-medium">Chef de projet 
+            Je compte tout mettre en œuvre pour à terme devenir <span className="font-medium">Chef de projet 
             , Ingénieur Biomédical ou Ingénieur en imagerie médicale</span>.
         </p>
     </motion.section>
