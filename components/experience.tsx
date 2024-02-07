@@ -42,7 +42,7 @@ export default function Experiences() {
                     }}
                         
                         >
-                        <h3 className="font-semibold capitalize hover:text-sky-600 cursor-pointer">{item.title}</h3>
+                        <h3 className="font-semibold capitalize hover:text-sky-600">{item.title}</h3>
                         <p className="font-normal !mt-0">{item.location}</p>
                         <p className="!mt-1 !font-normal text-gray-700">{item.description}</p>
                     </VerticalTimelineElement>
