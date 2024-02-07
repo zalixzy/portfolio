@@ -40,7 +40,6 @@ export const experiencesData = [
     description:"Spécialité Science de la Vie et de la Terre",
     icon: React.createElement(LuGraduationCap),
     date:"2016",
-    redirect:"bac.pdf"
   },
   {
     title:"BTS SIO Cybersécurité",
@@ -49,8 +48,6 @@ export const experiencesData = [
     // icon: React.createElement(CgWorkAlt)
     icon: React.createElement(LuGraduationCap),
     date:"2022 - 2024",
-    redirect:""
-    
   },
   {
     title: "A venir",
@@ -60,7 +57,6 @@ export const experiencesData = [
     // icon: React.createElement(FaReact)
     icon: React.createElement(LuGraduationCap),
     date: "2024 - présent",
-    redirect:""
   },
 ] as const;
 
