@@ -18,7 +18,7 @@ export default function Experiences() {
     <section id="Experience" className="scroll-mt-28 mb-28">
 
         <SectionHeading>Ma Scolarité</SectionHeading>
-        <VerticalTimeline lineColor="gray">
+        <VerticalTimeline lineColor="lightgray">
             
                 {experiencesData.map((item, index) =>(
                     <React.Fragment key={index}>
