@@ -8,9 +8,17 @@ import {
   import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from '@/lib/data';
 
+type ExperienceProps = (typeof experiencesData)[number];
 
-
-export default function Experiences() {
+export default function Experiences({
+    redirect
+}: ExperienceProps) {
+   
+    const handleClick = () => {
+        if (redirect !== "") {
+            window.open(redirect, '_blank');
+        }
+      };
     
   return (
 
@@ -42,7 +50,7 @@ export default function Experiences() {
                     }}
                         
                         >
-                        <h3  className="font-semibold capitalize hover:text-sky-600 cursor-pointer">{item.title}</h3>
+                        <h3 onClick={handleClick} className="font-semibold capitalize hover:text-sky-600 cursor-pointer">{item.title}</h3>
                         <p className="font-normal !mt-0">{item.location}</p>
                         <p className="!mt-1 !font-normal text-gray-700">{item.description}</p>
                     </VerticalTimelineElement>
