@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react'
+import React from 'react'
 import SectionHeading from './section-heading'
 import {
     VerticalTimeline,
@@ -11,11 +11,14 @@ import { experiencesData } from '@/lib/data';
 type ExperienceProps = (typeof experiencesData)[number];
 
 export default function Experiences({
+    title,
+    location,
+    description,
+    icon,
+    date,
     redirect
 }: ExperienceProps) {
-
-    const [showDialog, setShowDialog] = useState(false);
-
+   
     const handleClick = () => {
         if (redirect !== "") {
             window.open(redirect, '_blank');
