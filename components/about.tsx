@@ -29,7 +29,7 @@ export default function About() {
             J'ai déjà pu travailler avec Typescript, GO et suis toujours curieux de 
             découvrir de nouvelles technologies permettant d'ajouter des cordes à mon arc.
             Je cherche actuellement une{" "}
-            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en technologies de l'information pour la santé ou informatique pour la santé.
+            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en technologies de l'information pour la santé ou informatique.
         </p>
         <p className="mb-3">
             <span className="italic">Dans mon temps libre</span>, j'aime faire de la randonnée, 
