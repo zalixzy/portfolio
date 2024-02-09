@@ -14,7 +14,7 @@ export default function About() {
         <SectionHeading>A propos de moi</SectionHeading>
 
         <p className="mb-3 opacity-100 ">
-            Je cherche actuellement une{" "}
+            Je recherche actuellement une{" "}
             <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en technologies de l'information pour la santé, génie biomédical et santé ou informatique.
         </p>
         <p className="mb-3">
