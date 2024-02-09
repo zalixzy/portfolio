@@ -14,22 +14,8 @@ export default function About() {
         <SectionHeading>A propos de moi</SectionHeading>
 
         <p className="mb-3 opacity-100 ">
-            Après plusieurs expériences professionnelles{" "}
-            , j'ai décidé de poursuivre <span className="font-medium">ma passion</span>{" "}
-            pour la programmation et l'informatique. J'ai rejoint le BTS SIO Cybersécurité option Mathématiques Approfondies en 2022{" "}
-            <span className="font-medium">(Solutions logicielles et Applications métiers)</span>.{" "}
-            <span className="italic">Ce que je préfère dans ces domaines</span> sont leur vaste champ d'applications
-            et les nombreux services qui leurs sont liés <span className="underline">mais aussi</span> les innombrables
-            façons différentes de parvenir à résoudre une même problématique. 
-                {" "}
-            <span className="font-medium">
-            PHP, C#, JavaScript  {" "}
-            </span>
-            sont pour le moment les langages que je maîtrise le mieux.
-            J'ai déjà pu travailler avec Typescript, GO et suis toujours curieux de 
-            découvrir de nouvelles technologies permettant d'ajouter des cordes à mon arc.
             Je cherche actuellement une{" "}
-            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en technologies de l'information pour la santé ou informatique.
+            <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en technologies de l'information pour la santé, génie biomédical et santé ou informatique.
         </p>
         <p className="mb-3">
             <span className="italic">Dans mon temps libre</span>, j'aime faire de la randonnée, 
