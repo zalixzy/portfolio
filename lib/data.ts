@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Imprim3D",
     description:
-      "Un CMS ( partie admin ) permettant de gérer le contenu affiché sur un site marchand ( partie utilisateur ) et effectuer des paiement sécurisés",
+      "Un CMS ( partie admin ) permettant de gérer le contenu affiché sur un site marchand ( partie utilisateur ) et effectuer des paiements sécurisés",
     tags: ["React", "Typescript", "Prisma", "Stripe", "Shadcn-ui", "Clerck", "Cloudinary"],
     imageUrl: Imprim3dIMG,
     redirect: "https://imprimante3d-magasin.vercel.app/"
