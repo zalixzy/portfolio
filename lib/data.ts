@@ -113,7 +113,7 @@ export const skillsData = [
   "Github",
   "Tailwind",
   "MySQL",
-  "Docker",
+  "Matlab",
   "PHP",
   "Symfony",
   "C#",
