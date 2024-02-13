@@ -20,7 +20,7 @@ export default function About() {
         <p className="mb-3">
             <span className="italic">Dans mon temps libre</span>, j'aime faire de la randonnée, 
             m'intéresser à la géopolitique, la finance et passer du temps avec mes proches. J'aime aussi{" "}
-            <a href="https://www.youtube.com/watch?v=FxfTaQOJHsA" target="_blank" className="font-medium text-blue-400 hover:text-gray-800">apprendre de nouvelles choses car tout m'interesse</a><span className="font-medium"> ( en ce moment je me documente sur l'impression 3D )</span>. Je participe également en tant que bénévole pour l'association{" "}
+            <a href="https://www.youtube.com/watch?v=FxfTaQOJHsA" target="_blank" className="font-medium text-blue-400 hover:text-gray-800">apprendre de nouvelles choses car tout m'interesse</a><span className="font-medium"> ( en ce moment je me documente sur l'impression 3D et la photométrie )</span>. Je participe également en tant que bénévole pour l'association{" "}
             <span className="font-medium">les Blouses Roses de Nîmes.</span> Enfin, je cherche chaque jour à devenir une meilleure 
             version de moi-même et donner du sourire autour de moi. 
         </p>
