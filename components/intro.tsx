@@ -57,7 +57,9 @@ import { FaGithubSquare } from 'react-icons/fa';
               {/* {t('student')} */}
             </span>{" "}
             passionné par l'informatique
+            <br />
             {/* {t('passionate about computer science')} */}
+            <span className="italic text-lg text-red-600">ce site est intéractif. N'hésitez pas à survoler, cliquer sur le texte et les images.</span>
           </motion.h1>
           <motion.div className="
           flex flex-col sm:flex-row items-center justify-center 

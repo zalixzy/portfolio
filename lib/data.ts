@@ -116,6 +116,7 @@ export const skillsData = [
   "PHP",
   "Symfony",
   "C#",
+  "Mathlab",
   "Prisma",
   "EntityFramework",
   "Postman",
