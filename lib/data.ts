@@ -113,7 +113,6 @@ export const skillsData = [
   "Github",
   "Tailwind",
   "MySQL",
-  "Matlab",
   "PHP",
   "Symfony",
   "C#",
@@ -121,5 +120,4 @@ export const skillsData = [
   "EntityFramework",
   "Postman",
   "Shadcn-ui",
-  "GO",
 ] as const;
