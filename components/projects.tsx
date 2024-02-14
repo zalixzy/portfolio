@@ -24,10 +24,11 @@ type ProjectProps = (typeof projectsData)[number];
       window.open(redirect, '_blank');
       
     }else{
-      if (redirect !== "") {
-        // Affiche la boîte de dialogue
-        setShowDialog(true);
-      }
+      // if (redirect !== "") {
+      //   // Affiche la boîte de dialogue
+      //   setShowDialog(true);
+      // }
+      setShowDialog(true);
   
     }
     
