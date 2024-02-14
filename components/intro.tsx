@@ -63,7 +63,7 @@ import { FaGithubSquare } from 'react-icons/fa';
                   initial={{ opacity: 1 }}
                   animate={{ opacity: [1, 0], transition: { duration: 2, delay: 4 } }}
             >
-               <span className="italic text-lg text-red-600">ce site est intéractif. N'hésitez pas à survoler, cliquer sur le texte et les images.</span>
+               <span className="italic text-lg text-red-600">Ce site est intéractif. N'hésitez pas à survoler, cliquer sur le texte et les images.</span>
             </motion.div>
           </motion.h1>
           <motion.div className="
