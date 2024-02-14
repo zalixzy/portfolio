@@ -85,14 +85,14 @@ export const projectsData = [
     imageUrl: wpfImg,
     redirect: "fusion_wpf.png"
   },
-  {
-    title: "Symfony",
-    description:
-     "A venir",
-    tags: ["PHP", "Symfony","Docker"],
-    imageUrl: AvenirImg,
-    redirect: ""
-  },
+  // {
+  //   title: "Symfony",
+  //   description:
+  //    "A venir",
+  //   tags: ["PHP", "Symfony","Docker"],
+  //   imageUrl: AvenirImg,
+  //   redirect: ""
+  // },
   {
   title: "API REST Catalogue Randonnee",
     description:
