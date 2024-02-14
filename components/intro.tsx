@@ -61,7 +61,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             {/* {t('passionate about computer science')} */}
             <motion.div  className="-mb-10"
                   initial={{ opacity: 1 }}
-                  animate={{ opacity: [1, 0], transition: { duration: 2, delay: 4 } }}
+                  animate={{ opacity: [1, 0], transition: { duration: 2, delay: 5 } }}
             >
                <span className="italic text-lg text-red-600">Ce site est intéractif. N'hésitez pas à survoler, cliquer sur le texte et les images.</span>
             </motion.div>
