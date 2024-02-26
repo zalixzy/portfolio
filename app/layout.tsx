@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Thomas | Portfolio ',
-  description: 'Travier Thomas est un étudiant aspirant à devenir chef de projet en informatique',
+  description: 'Travier Thomas, étudiant en BTS SIO curieux et passionné',
 }
 
 export default function RootLayout({
