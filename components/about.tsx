@@ -38,9 +38,9 @@ const About: React.FC = () => {
         <span className="italic">Dans mon temps libre</span>, j'aime faire de la randonnée,
         m'intéresser à la géopolitique, la finance et passer du temps avec mes proches. J'aime aussi{" "}
         <a href="https://www.youtube.com/watch?v=FxfTaQOJHsA" target="_blank" className="font-medium  text-blue-400 hover:text-gray-800">apprendre de nouvelles choses car tout m'interesse</a>
-        <a href="./riz.gif" target="_blank" className="font-medium text-blue-800 hover:text-gray-800 " onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}> ( en ce moment je me documente sur l'impression 3D, le traitement d'image avec Matlab et la photométrie )</a>.
+        <a href="./riz.gif" target="_blank" className="font-medium text-blue-800 hover:text-gray-800 " onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}> ( en ce moment je me documente sur l'impression 3D et le traitement d'image avec Matlab )</a>.
         Je participe également en tant que bénévole pour l'association{" "}
-        <span className="font-medium">les Blouses Roses de Nîmes.</span> Enfin, je cherche chaque jour à devenir une meilleure
+        <a href="https://www.lesblousesroses.asso.fr/fr/" target="_blank" className="font-medium">les Blouses Roses de Nîmes.</a> Enfin, je cherche chaque jour à devenir une meilleure
         version de moi-même et donner du sourire autour de moi.
       </p>
       <p className="mb-3">
