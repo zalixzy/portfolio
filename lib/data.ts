@@ -50,7 +50,7 @@ export const experiencesData = [
     date:"2022 - 2024",
   },
   {
-    title: "A venir",
+    title: "Ecole d'ingénieur en alternance",
     location: "A venir",
     description:
       "A venir",
