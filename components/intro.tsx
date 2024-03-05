@@ -84,7 +84,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             <a className="group bg-gray-200 text-gray-950 px-7 py-1 flex items-center gap-2 
             rounded-full outline-none hover:scale-105 focus:scale-105
             hover:bg-gray-100 active:scale-105 transition cursor-pointer border border-black/10
-            " href="/CV.pdf" download>Télécharger CV 
+            " href="/CV.pdf" download>CV à jours 
             <HiDownload className="opacity-60 group-hover:translate-y-0.5 transition
             " />
 
