@@ -50,10 +50,10 @@ export const experiencesData = [
     date:"2022 - 2024",
   },
   {
-    title: "Ecole d'ingénieur en alternance",
-    location: "A venir",
+    title: "TIS ESIR",
+    location: "Campus de Beaulieu, Rennes",
     description:
-      "A venir",
+      "Parcours d'ingénierie biomédicale et médicale",
     // icon: React.createElement(FaReact)
     icon: React.createElement(LuGraduationCap),
     date: "2024 - présent",

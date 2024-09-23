@@ -26,8 +26,8 @@ const About: React.FC = () => {
       <SectionHeading>A propos de moi</SectionHeading>
       
       <p className="mb-3 opacity-100 ">
-        Je recherche actuellement une{" "}
-        <span className="font-medium">école d'ingénieur ou équivalent bac+3</span> en technologies de l'information pour la santé, génie biomédical et santé ou informatique.
+        Je recherche actuellement un{" "}
+        <span className="font-medium">stage de fin d'année ou alternance m'accompagnant pour la période 2025-2027</span> en la qualité d'ingénieur biomédical hospitalier, ingénieur biomédical ou chef de projet
       </p>
       {showImage && (
           <div className="absolute right-[0%] top-[15%]">

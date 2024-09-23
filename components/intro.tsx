@@ -53,10 +53,10 @@ import { FaGithubSquare } from 'react-icons/fa';
             {/* {t('I am a')} */}
             {" "}Je suis un{" "}
             <span className="font-bold">
-              étudiant
+              étudiant ingénieur
               {/* {t('student')} */}
             </span>{" "}
-            passionné par l'informatique
+            passionné par le domaine du biomédical
             <br />
             {/* {t('passionate about computer science')} */}
             <motion.div  className="-mb-10"
@@ -84,7 +84,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             <a className="group bg-gray-200 text-gray-950 px-7 py-1 flex items-center gap-2 
             rounded-full outline-none hover:scale-105 focus:scale-105
             hover:bg-gray-100 active:scale-105 transition cursor-pointer border border-black/10
-            " href="/CV.pdf" download>CV à jours 
+            " href="/CV_fr.pdf" download>CV
             <HiDownload className="opacity-60 group-hover:translate-y-0.5 transition
             " />
 
