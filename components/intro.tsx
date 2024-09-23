@@ -53,7 +53,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             {/* {t('I am a')} */}
             {" "}Je suis un{" "}
             <span className="font-bold">
-              étudiant ingénieur
+              étudiant 
               {/* {t('student')} */}
             </span>{" "}
             passionné par le domaine du biomédical
@@ -106,7 +106,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             </a>
 
           </motion.div>
-         <motion.div initial ={{opacity:0, scale: 0}}
+         {/* <motion.div initial ={{opacity:0, scale: 0}}
                   animate= {{opacity:1, scale:1}}
                   transition={{ type: "tween", duration: 0.2 }}
                   >
@@ -116,7 +116,7 @@ import { FaGithubSquare } from 'react-icons/fa';
             href="/recommandation_f.pdf" download>
             Lettre de recommandation
           </a>
-          </motion.div>
+          </motion.div> */}
 
          
 
