@@ -50,7 +50,7 @@ export const experiencesData = [
     date:"2022 - 2024",
   },
   {
-    title: "TIS ESIR",
+    title: "ESIR TIS",
     location: "Campus de Beaulieu, Rennes",
     description:
       "Parcours d'ingénierie biomédicale et médicale",
