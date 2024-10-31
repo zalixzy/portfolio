@@ -44,7 +44,7 @@ const About: React.FC = () => {
         version de moi-même et donner du sourire autour de moi.
       </p>
       <p className="mb-3">
-        Je compte tout mettre en œuvre pour à terme devenir <span className="font-medium">Chef de projet
+        Je compte tout mettre en œuvre pour à terme devenir <span className="font-medium">Ingénieur d'application
           , Ingénieur Biomédical ou Ingénieur en imagerie médicale</span>.
       </p>
 
