@@ -27,7 +27,7 @@ const About: React.FC = () => {
       
       <p className="mb-3 opacity-100 ">
         Je recherche actuellement un{" "}
-        <span className="font-medium">stage de fin d'année ou alternance m'accompagnant pour la période 2025-2027</span> en la qualité d'ingénieur biomédical hospitalier, ingénieur biomédical ou chef de projet
+        <span className="font-medium">stage de fin d'année à l'étranger ou une alternance m'accompagnant pour la période 2025-2027</span> en la qualité d'ingénieur biomédical hospitalier, ingénieur d'application ou chef de projet
       </p>
       {showImage && (
           <div className="absolute right-[0%] top-[15%]">
